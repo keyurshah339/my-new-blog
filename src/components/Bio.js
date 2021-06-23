@@ -17,22 +17,22 @@ function Bio() {
               marginBottom: rhythm(2.5),
             }}
           >
-            <Image
-              fixed={data.avatar.childImageSharp.fixed}
-              alt={author}
+           
+           <img
               style={{
                 marginRight: rhythm(1 / 2),
                 marginBottom: 0,
                 minWidth: 50,
                 borderRadius: `100%`,
               }}
+              src="https://avatars.githubusercontent.com/u/75299295?v=4"
             />
+
             <p>
-              Written by <strong>{author}</strong> who lives and works in
-              Minneapolis building silly things.
+              Written by <strong>Keyur Shah</strong> 
               {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
+              <a href={`https://github.com/keyurshah339`}>
+                You should follow him on GitHub
               </a>
             </p>
           </div>
